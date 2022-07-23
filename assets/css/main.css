@@ -5697,17 +5697,19 @@ h2.about{margin-top:-50px;}
 		display: inline-block;
 	  }
 	
-	#btn-back-to-top svg{	
+	#btn-back-to-top svg{
 		fill:#5c5c5c; 
 		width: 40px;
 		height: 40px;
 		display: inline-block;
-		opacity: 50%;
+		opacity: 40%;
+		transition: all 0.5s cubic-bezier(0.3, 0, 0.3, 1);
+		-webkit-transition: all 0.5s cubic-bezier(0.3, 0, 0.3, 1);
 	}  
 
 	@media (hover: hover) {
 		#btn-back-to-top svg:hover {
-			fill:#fafafa;
+			fill:#0dcaf0;
 			margin-top:-16px;
 			transition: all 0.5s cubic-bezier(0.3, 0, 0.3, 1);
 			-webkit-transition: all 0.5s cubic-bezier(0.3, 0, 0.3, 1);
