@@ -2851,7 +2851,7 @@ body .hero-main-slider .swiper-pagination {
 	margin-bottom: 30px;
 	margin-left:30px;
 	position: relative;
-	z-index: 2;
+	z-index: 12;
 }
 
 .filter-links a {
