@@ -2313,7 +2313,7 @@ body.light-skin .header.sticky .navbar.default:before {
 }
 
 .contacts-items .numbers-item .num {
-	font-size: 18px;
+	font-size: 24px;
 }
 
 .numbers-item .title {
@@ -4721,11 +4721,11 @@ h5.comment-box__details {
 	}
 	.numbers-item .num, .numbers-item .icon {
 		font-size: 26px;
-		text-align: center;
+		/* text-align: center; */
 	}
 	.numbers-item .title {
 		margin-left: 0;
-		text-align: center;
+		/* text-align: center; */
 	}
 
 	/*resume*/
@@ -4814,9 +4814,9 @@ h5.comment-box__details {
 	.works-items.works-list-items {
 		margin-top: -50px;
 	}
-	.works-items.works-list-items .works-item {
+	/* .works-items.works-list-items .works-item {
 		margin-top: 50px;
-	}
+	} */
 	.works-items.works-list-items .works-item .image {
 		width: 100%;
 		float: none;
@@ -5622,6 +5622,9 @@ body.light-skin.single-portfolio .m-titles:before {
 .p-t-180{padding-top:180px;}
 @media screen and (max-width: 1024px) {
 	.p-t-180{padding-top:0;}
+	.contacts-items .numbers-item .num {
+		font-size: 18px;
+	}
 }
 #contact-section{padding-bottom: 40px;}
 
