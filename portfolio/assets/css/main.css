@@ -2313,7 +2313,7 @@ body.light-skin .header.sticky .navbar.default:before {
 }
 
 .contacts-items .numbers-item .num {
-	font-size: 18px;
+	font-size: 24px;
 }
 
 .numbers-item .title {
@@ -5625,3 +5625,10 @@ body.light-skin.single-portfolio .m-titles:before {
 }
 #contact-section{padding-bottom: 40px;}
 
+
+@media screen and (max-width: 1024px) {
+
+.contacts-items .numbers-item .num {
+	font-size: 18px;
+}
+}
