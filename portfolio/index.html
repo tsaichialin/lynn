@@ -37,23 +37,9 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TFQ9QZ6');
-  </script>
-
 </head>
 
 <body class="home page light-skin">
-
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFQ9QZ6"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
 	<div class="container-page ">
 
     <!-- Preloader -->
@@ -954,6 +940,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div href="work-single.html">
                     <span class="image scrolla-element-anim-1 scroll-animate" data-animate="active">
                       <span class="img">
+                        <img src="assets/images/work_027.jpg" loading="lazy" alt="Kana" />
+                      </span>
+                    </span>
+                    <span class="desc">
+                      <span class="name splitting-text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
+                        Social Media
+                      </span>
+                      <span class="category scrolla-element-anim-1 scroll-animate" data-animate="active">
+                        ∙ Facebook Post
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
+                <div class="works-item">
+                  <div href="work-single.html">
+                    <span class="image scrolla-element-anim-1 scroll-animate" data-animate="active">
+                      <span class="img">
                         <img src="assets/images/work_019.jpg" loading="lazy" alt="Kana" />
                       </span>
                     </span>
@@ -1149,7 +1155,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <section class="section-bg" >
         <div class="container">
         <div class="container"style="padding-bottom: 56.25%; max-width: 100%; position: relative;">
-          <iframe src="https://player.vimeo.com/video/751108598?autoplay=1&title=0&portrait=0&byline=0&loop=1" width="1140px" height="642px" 
+          <iframe src="https://player.vimeo.com/video/751108598?autoplay=1&title=0&portrait=0&byline=0" width="1920px" height="1080px" 
            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" frameborder="0" loading="lazy">
           </iframe>
         </div>
@@ -1165,20 +1171,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
 
           <div class="row row-custom">
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-right">
 
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
-
-              <!-- contact form -->
-              <div class="contacts-form scrolla-element-anim-1 scroll-animate" data-animate="active">
-                <!-- Section numbers -->
+              <!-- Section numbers -->
               <div class="numbers-items contacts-items">
                 <div class="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
                   <div class="icon">
                     <i aria-hidden="true" class="icon-phone-1"></i>
                   </div>
-                  <div class="num">Lynn Tsai&ensp;0918477326</div>
+                  <div class="num">0918477326</div>
                 </div>
                 <div class="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
                   <div class="icon">
@@ -1187,6 +1188,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="num">chialin.tsai@gmail.com</div>
                 </div>
               </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
+
+              <!-- contact form -->
+              <div class="contacts-form scrolla-element-anim-1 scroll-animate" data-animate="active">
+                <form id="cform" method="post">
+                  <label>
+                    Name
+                    <input type="text" name="name" placeholder="Enter your full name" />
+                  </label>
+                  <label>
+                    Email Address
+                    <input type="email" name="email" placeholder="Enter your email address" />
+                  </label>
+                  <label>
+                    Message
+                    <textarea name="message" placeholder="Enter your message here"></textarea>
+                  </label>
+                  <a href="#" class="btn" onclick="$('#cform').submit(); return false;">Submit</a>
+                </form>
+              </div>
+              <div class="alert-success" style="display: none;">
+								<p>Thanks, your message is sent successfully.</p>
+							</div>
 
             </div>
           </div>
@@ -1201,15 +1227,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 
 	<!-- cursor -->
-  <div class="cursor"></div>
+	<div class="cursor"></div>
 
   <script src="assets/js/jquery.min.js"></script>
-  <!-- <script src="assets/js/jquery.validate.min.js"></script> -->
+  <script src="assets/js/jquery.validate.min.js"></script>
   <script src="assets/js/bootstrap.js"></script>
   <!-- <script src="assets/js/swiper.js"></script> -->
   <script src="assets/js/splitting.js"></script>
   <script src="assets/js/jarallax.min.js"></script>
-  <!-- <script src="assets/js/magnific-popup.js"></script> -->
+  <script src="assets/js/magnific-popup.js"></script>
   <script src="assets/js/imagesloaded.pkgd.js"></script>
   <!-- <script src="assets/js/isotope.pkgd.js"></script> -->
   <script src="assets/js/jquery.scrolla.js"></script>
